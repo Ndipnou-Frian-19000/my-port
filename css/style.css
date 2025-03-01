@@ -421,11 +421,6 @@ transform: scale(1.1);
         padding: 2rem;
     }
 
-    .home-img{
-        display: flex;
-        justify-content: center;
-    }
-
     #menu-icon {
         display: block;
         font-size: 28px;
@@ -450,10 +445,6 @@ transform: scale(1.1);
         display: grid;
         grid-template-columns: 1fr;
     } 
-    .home-img{
-        display: flex;
-        justify-content: center;
-    }
 }
 @media (max-width:450px){
     html{
@@ -470,10 +461,6 @@ transform: scale(1.1);
         display: grid;
         grid-template-columns: 98%;
     }
-    .home-img{
-        display: flex;
-        justify-content: center;
-    }
 }
 @media (max-width:365px){
 .home-img img{
@@ -486,7 +473,6 @@ transform: scale(1.1);
 }
 .home-img{
     display: flex;
-    justify-content: center;
 }
 .about-img img{
     width: 90vw;
@@ -501,9 +487,5 @@ transform: scale(1.1);
 #about{
     display: grid;
     grid-template-columns: 98%;
-}
-.home-content{
-    display: flex;
-    justify-content: center;
 }
 } 
